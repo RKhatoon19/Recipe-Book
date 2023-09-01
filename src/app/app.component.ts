@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shop-receipe';
+  loadedValue= 'recipe';
+  onLoaded(feature:string){
+this.loadedValue=feature
+  }
 }
